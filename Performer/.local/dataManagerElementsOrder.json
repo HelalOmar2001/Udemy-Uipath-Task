@@ -1,0 +1,200 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "el Performer El top.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable1&Sequence_1",
+        "str&Sequence_21",
+        "ExtractDataTable&Sequence_19",
+        "exception&Sequence_5",
+        "statusExs&Sequence_5",
+        "courseCostNum&Sequence_5",
+        "outputDataTable&Sequence_2",
+        "coursInstructors&Sequence_5",
+        "courseDesc&Sequence_5",
+        "courseStatus&Sequence_5",
+        "courseRate&Sequence_5",
+        "courseValue&Sequence_5",
+        "courseName&Sequence_5",
+        "ExtractDataTable&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Login To Udemy Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sequanceName&TryCatch_1",
+        "ExtractDataTable&Sequence_2",
+        "outputDataTable&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_udemyAcc",
+        "in_udemyPass",
+        "in_udemyURL"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Search In Udemy Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sequanceName&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_course"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Get Courses From Udemy Search Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sequanceName&TryCatch_1",
+        "ExtractDataTable&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_ExtractDataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Adding Courses Data into Table Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sequanceName&TryCatch_1",
+        "newCurrency&Sequence_16",
+        "exchangeRatio&Sequence_18",
+        "JsonObj&Sequence_18",
+        "response&Sequence_18",
+        "courseCost&Sequence_16",
+        "courseInstructors&Sequence_16",
+        "str&Sequence_16",
+        "courseName&Sequence_16",
+        "courseRate&Sequence_16",
+        "courseStatus&Sequence_16",
+        "courseDesc&Sequence_16",
+        "courseCostNum&Sequence_16",
+        "statusExs&Sequence_16",
+        "exception&Sequence_16",
+        "CoursesDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_currency",
+        "in_cost",
+        "in_extractDataTable"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Send Output Via Outlook Sequance.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "sequanceName&TryCatch_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_course",
+        "in_mailSender"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "udemyAcc&Sequence_9",
+        "udemyPass&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
