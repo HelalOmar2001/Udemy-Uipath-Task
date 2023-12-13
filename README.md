@@ -42,9 +42,6 @@ The Performer processes the queued requests, logs into Udemy, searches for cours
 - **Performer:**
   - `Main.xaml`: Main workflow for processing queue items, searching Udemy, and sending emails is located in the `Performer` folder.
 
-- **Utilities:**
-  - `Utils`: Common utility activities and functions.
-
 ## Dependencies:
 
 - UiPath Studio (compatible version)
